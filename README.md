@@ -23,22 +23,20 @@ This project is a C++ console-based Airport Management System for NUCES Airline.
 ## How to Compile and Run
 
 ### On macOS/Linux
-1. **Open Terminal** and navigate to the project root directory:
-   
+1. **Open Terminal** and navigate to the project root directory
 2. **Compile the program:**
    ```sh
-   g++ -o "Airport Management System 2/Program" "Airport Management System 2/Program.cpp"
+   g++ -o Program Program.cpp
    ```
 3. **Run the program:**
    ```sh
-   ./"Airport Management System 2/Program"
+   ./Program
    ```
 
 ### On Windows
 1. **Open Command Prompt** and navigate to the project root directory:
    ```bat
    cd "\path\to\Cpp-Airport-Management-System"
-   cd "Airport Management System 2"
    ```
 2. **Compile the program:**
    - If you have MinGW installed:
@@ -64,7 +62,7 @@ This project is a C++ console-based Airport Management System for NUCES Airline.
 - For best results, use a standard terminal (not an IDE console) to ensure password masking and screen clearing work correctly.
 
 ## Authors
-- Hashim Ahmad (i222478)
+- Hashim Ahmad
 
 ## License
 This project is for educational purposes only. 
